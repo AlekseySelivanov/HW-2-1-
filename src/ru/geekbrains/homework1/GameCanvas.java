@@ -9,6 +9,7 @@ public class GameCanvas extends JPanel {
     long lastFrameTime;
     private static final int FPS_SLEEP_TIME = 17;
 
+
     GameCanvas(MainCircles controller) {
         this.controller = controller;
         lastFrameTime = System.nanoTime();
